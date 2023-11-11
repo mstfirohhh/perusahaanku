@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F-Tech | Ready to help your bussiness</title>
+    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3 mb-5">
+        <div class="container">
+            <a href="" class="navbar-brand text-dark fs-5 fw-bold me-5">
+                <i class="bx bx-globe me-2 text-light bg-dark rounded-circle p-1"></i>
+                F-Tech
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Service</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#footer" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            FAQ
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">how long does the work take?</a></li>
+                            <li><a class="dropdown-item" href="#">how to order the service?</a></li>
+                            <li><a class="dropdown-item" href="#">what is the rental time limit?</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control rounded-2 me-2" type="search" placeholder="Search"
+                        aria-label="Search">
+                </form>
+                <button class="btn btn-dark fw-bold rounded-circle mt-md-0" data-bs-toggle="modal"
+                    data-bs-target="#registerModal"><i class='bx bx-user'></i></button>
+            </div>
+        </div>
+    </nav>
+    <div class="modal fade" id="registerModal" aria-labelledby="registerLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content w-100">
+                <div class="modal-header ">
+                    <h5 id="registerLabel">Register</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-floating py-2 px-3 mt-3">
+                            <input type="text" class="form-control" id="fname" placeholder="First Name">
+                            <label for="fname" class="px-4">First Name</label>
+                        </div>
+                        <br>
+                        <div class="form-floating py-2 px-3">
+                            <input type="text" class="form-control" id="Username" placeholder="Username">
+                            <label for="Username" class="px-4">Username</label>
+                        </div>
+                        <br>
+                        <div class="form-floating py-2 px-3">
+                            <input type="Password" class="form-control" id="Password" placeholder="Password">
+                            <label for="Password" class="px-4">Password</label>
+                        </div>
+                        <br>
+                        <div class="form-floating py-2 px-3">
+                            <input type="Password" class="form-control" id="Password" placeholder="Confirm Password">
+                            <label for="Password" class="px-4">Confirm Password</label>
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <button class="btn btn-dark ml-4 mb-3 fw-bold">Register</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5 mt-5">
+        <div class="text-center mb-5">
+            <h1 class="display-3">Leave it all to us,</h1>
+            <h1 class="display-3 mb-5">we provide what you need</h1>
+            <a href="" class="btn btn-dark me-3">Get Started</a>
+            <a href="" class="btn btn-light">Get it Touch</a>
+        </div>
+        <div class="px-5 d-flex">
+            <div class="card me-3" style="width: 22rem;">
+                <img src="img/img3.jpg" class="card-img-top rounded" alt="...">
+            </div>
+            <div class="card me-3" style="width: 22rem;">
+                <img src="img/img1.jpg" class="card-img-top rounded" alt="...">
+            </div>
+            <div class="card me-3" style="width: 22rem;">
+                <img src="img/img4.jpg" class="card-img-top rounded" alt="...">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="text-center">
+            <h1 class="display-5">Our Service</h1>
+            <h4 class="fw-light">F-Tech can help you in running a business</h4>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 mt-5">
+            <div class="col">
+                <div class="card">
+                    <img src="img/code.svg" class="card-img-top mt-3" alt="..." width="100" height="100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-4">UI UX Design</h5>
+                        <a href="#" class="btn btn-outline-dark rounded-2">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center">
+                    <img src="img/web design.svg" class="card-img-top mt-3" alt="..." width="100" height="100">
+                    <div class="card-body">
+                        <h5 class="card-title mb-4">Mobile Development</h5>
+                        <a href="#" class="btn btn-outline-dark rounded-2">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/ui design.svg" class="card-img-top mt-3" alt="..." width="100" height="100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-4">Web Development</h5>
+                        <a href="#" class="btn btn-outline-dark rounded-2">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="text-center">
+            <h1 class="display-5">Recent Project</h1>
+            <h4 class="fw-light">Our latest project is with several companies</h4>
+        </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner mb-5">
+                <div class="carousel-item active">
+                    <div class="row row-cols-1 row-cols-md-3 mt-5">
+                        <div class="col">
+                            <div class="card rounded-3">
+                                <img src="img/project1.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card rounded-3">
+                                <img src="img/project2.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card rounded-3">
+                                <img src="img/project3.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row row-cols-1 row-cols-md-3 mt-5">
+                        <div class="col">
+                            <div class="card">
+                                <img src="img/project2.png" class="card-img-top rounded" alt="...">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="img/project3.png" class="card-img-top rounded" alt="...">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="img/project1.png" class="card-img-top rounded" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h1 class="display-5">Testimonials</h1>
+            <h4 class="fw-light">Our latest project is with several companies</h4>
+        </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner mb-5">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card bg-light mb-3" style="max-width: 18rem;">
+                                <div class="nama d-flex mt-3 px-2">
+                                    <img src="img/profile4.jpg" alt="" width="30" height="30"
+                                        class="rounded-circle me-3">
+                                    <h6 class="card-title mt-1 fw-bold">Cassandra Kim</h6>
+                                </div>
+                                <div class="card-body text-dark">
+                                    <p class="card-text">great joob</p>
+                                </div>
+                                <div class="card-footer bg-transparent border-success">
+                                    <div class="star d-flex">
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bx-star text-warning fs-6'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card bg-light mb-3" style="max-width: 18rem;">
+                                <div class="nama d-flex mt-3 px-2">
+                                    <img src="img/profile5.jpg" alt="" width="30" height="30"
+                                        class="rounded-circle me-3">
+                                    <h6 class="card-title mt-1 fw-bold">Leo Chandra</h6>
+                                </div>
+                                <div class="card-body text-dark">
+                                    <p class="card-text">very nice work</p>
+                                </div>
+                                <div class="card-footer bg-transparent border-success">
+                                    <div class="star d-flex">
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bx-star text-warning fs-6'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card bg-light mb-3" style="max-width: 18rem;">
+                                <div class="nama d-flex mt-3 px-2">
+                                    <img src="img/profile6.jpg" alt="" width="30" height="30"
+                                        class="rounded-circle me-3">
+                                    <h6 class="card-title mt-1 fw-bold">John Smith</h6>
+                                </div>
+                                <div class="card-body text-dark">
+                                    <p class="card-text">the best collaboration with you</p>
+                                </div>
+                                <div class="card-footer bg-transparent border-success">
+                                    <div class="star d-flex">
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bx-star text-warning fs-6'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card bg-light mb-3" style="max-width: 18rem;">
+                                <div class="nama d-flex mt-3 px-2">
+                                    <img src="img/profile1.jpg" alt="" width="30" height="30"
+                                        class="rounded-circle me-3">
+                                    <h6 class="card-title mt-1 fw-bold">Angelina Jolie</h6>
+                                </div>
+                                <div class="card-body text-dark">
+                                    <p class="card-text">good job</p>
+                                </div>
+                                <div class="card-footer bg-transparent border-success">
+                                    <div class="star d-flex">
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bx-star text-warning fs-6'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card bg-light mb-3" style="max-width: 18rem;">
+                                <div class="nama d-flex mt-3 px-2">
+                                    <img src="img/profile2.jpg" alt="" width="30" height="30"
+                                        class="rounded-circle me-3">
+                                    <h6 class="card-title mt-1 fw-bold">Laura Sant</h6>
+                                </div>
+                                <div class="card-body text-dark">
+                                    <p class="card-text">realy happy colaboration with your team</p>
+                                </div>
+                                <div class="card-footer bg-transparent border-success">
+                                    <div class="star d-flex">
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bx-star text-warning fs-6'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card bg-light mb-3" style="max-width: 18rem;">
+                                <div class="nama d-flex mt-3 px-2">
+                                    <img src="img/profile3.jpg" alt="" width="30" height="30"
+                                        class="rounded-circle me-3">
+                                    <h6 class="card-title mt-1 fw-bold">Victor Axel</h6>
+                                </div>
+                                <div class="card-body text-dark">
+                                    <p class="card-text">nice performance</p>
+                                </div>
+                                <div class="card-footer bg-transparent border-success">
+                                    <div class="star d-flex">
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bx-star text-warning fs-6'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card bg-light mb-3" style="max-width: 18rem;">
+                                <div class="nama d-flex mt-3 px-2">
+                                    <img src="img/profile4.jpg" alt="" width="30" height="30"
+                                        class="rounded-circle me-3">
+                                    <h6 class="card-title mt-1 fw-bold">Cassandra Kim</h6>
+                                </div>
+                                <div class="card-body text-dark">
+                                    <h5 class="card-title">Success card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-footer bg-transparent border-success">
+                                    <div class="star d-flex">
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bx-star text-warning fs-6'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card bg-light mb-3" style="max-width: 18rem;">
+                                <div class="nama d-flex mt-3 px-2">
+                                    <img src="img/profile5.jpg" alt="" width="30" height="30"
+                                        class="rounded-circle me-3">
+                                    <h6 class="card-title mt-1 fw-bold">Cassandra Kim</h6>
+                                </div>
+                                <div class="card-body text-dark">
+                                    <h5 class="card-title">Success card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-footer bg-transparent border-success">
+                                    <div class="star d-flex">
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bx-star text-warning fs-6'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card bg-light mb-3" style="max-width: 18rem;">
+                                <div class="nama d-flex mt-3 px-2">
+                                    <img src="img/profile6.jpg" alt="" width="30" height="30"
+                                        class="rounded-circle me-3">
+                                    <h6 class="card-title mt-1 fw-bold">Cassandra Kim</h6>
+                                </div>
+                                <div class="card-body text-dark">
+                                    <h5 class="card-title">Success card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                                <div class="card-footer bg-transparent border-success">
+                                    <div class="star d-flex">
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bxs-star text-warning fs-6'></i>
+                                        <i class='bx bx-star text-warning fs-6'></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+    <section class="service mt-5 mb-5">
+        <div class="container">
+            <div class="row py-5 px-5 d-flex">
+                <div class="col-md-6 mt-md-0 mb-3">
+                    <h5 class="mb-4 text-muted">About Us</h5>
+                    <h1 class="fw-bold"><i class='bx bx-globe'></i>
+                        F-Tech</h1>
+                    <p class="mt-4">Leave it all to us,
+                        we provide what you need</p>
+                    <p>
+                        <i class='bx bx-map me-3' ></i>Pekalongan, Central Java
+                    </p>
+                    <p>
+                        <i class='bx bx-envelope me-3' ></i>ftechofficial@gmail.com
+                    </p>
+                    <p>
+                        <i class='bx bx-phone me-3'></i>+62 882-0031-94597
+                    </p>
+                    <a href="" class="btn btn-dark px-5 mt-4 fw-bold text-light rounded-2">Get it Touch</a>
+                </div>
+
+                <div class="col-md-6 mt-md-0 mt-3 mb-3">
+                    <div class="card">
+                    <video autoplay muted loop id="myVideo">
+                        <source src="video/video1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="bg-dark text-white pt-5 pb-4" id="footer">
+        <div class="container text-md-left">
+            <div class="row text-md-left">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-white"><i
+                            class="bx bx-globe text-light me-2 bg-dark rounded-circle p-1"></i>F-Tech</h5>
+                    <p>Leave it all to us, we provide what you need</p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-white">Service</h5>
+                    <p>
+                        <a href="#" class="text-decoration-none text-white">UI UX Design</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-decoration-none text-white">Mobile Development</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-decoration-none text-white">Web Development</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-white">FAQ</h5>
+                    <p>
+                        <a href="#" class="text-decoration-none text-white">how long does the work take?</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-decoration-none text-white">how to order the service?</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-decoration-none text-white">what is the rental time limit?</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-white">Location</h5>
+                    <div class="card">
+                        <div id="google-map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.4121652738977!2d109.63610717356612!3d-6.960609868147208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7021b4d2b766bb%3A0x40dacfe03dd23e15!2sITS%20NU%20Pekalongan!5e0!3m2!1sid!2sid!4v1699322900364!5m2!1sid!2sid"
+                                width="260" height="160" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <br class="mb-4">
+                <div class="col-md-6 mt-3">
+                    <div class="col-md-7 col-lg-8">
+                        <p>Copyright &copy; 2023 All rights reserved by:
+                            <a href="#" class="text-decoration-none"><strong class="text-white">F-Tech</strong></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-3">
+                    <div class="text-center">
+                        <ul class="list-unstyled d-flex">
+                            <li><a href="https://instagram.com/mstfiroh_?igshid=YzAwZjE1ZTI0Zg%3D%3D&utm_source=qr"
+                                    class="btn btn-outline-light rounded-circle me-3"><i class='bx bxl-instagram-alt' ></i></a></li>
+                            <li><a href="https://www.facebook.com/mstfrh.ii?mibextid=PzaGJu"
+                                    class="btn btn-outline-light rounded-circle me-3"><i class='bx bxl-facebook'></i></a></li>
+                            <li><a href="https://www.tiktok.com/@abcdefrh8_?_t=8hGy0OmjPSz&_r=1"
+                                    class="btn btn-outline-light rounded-circle"><i class='bx bxl-tiktok' ></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+    <div class="button">
+        <a href="https://api.whatsapp.com/send?phone=62882003194597&text=Hi,I%20want%20to%20hiring%20a%20worker%20F-Tech"
+            class="me-5"><i class='bx bxl-whatsapp'></i></a>
+        <a href="#" id=""><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

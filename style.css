@@ -1,0 +1,18 @@
+.button a {
+    position: fixed;
+    text-decoration: none;
+    bottom: 4rem;
+    right: 3rem;
+    border-radius: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #181818;
+    padding: 0.5rem;
+    transition: 0.2s ease-out;
+  }
+  
+  .button a i {
+    color: #fff;
+    transition: 0.2s ease-out;
+  }
